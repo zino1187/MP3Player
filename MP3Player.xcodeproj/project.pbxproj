@@ -13,6 +13,14 @@
 		AC0F34B8240F4AFB006C5F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34B6240F4AFB006C5F45 /* Main.storyboard */; };
 		AC0F34BA240F4AFB006C5F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34B9240F4AFB006C5F45 /* Assets.xcassets */; };
 		AC0F34BD240F4AFB006C5F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34BB240F4AFB006C5F45 /* LaunchScreen.storyboard */; };
+		AC0F34C7240F4ED4006C5F45 /* perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34C5240F4ED4006C5F45 /* perfect.mp3 */; };
+		AC0F34C8240F4ED4006C5F45 /* creep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34C6240F4ED4006C5F45 /* creep.mp3 */; };
+		AC0F34CA240F4F70006C5F45 /* make_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34C9240F4F70006C5F45 /* make_you.mp3 */; };
+		AC0F34CC240F5008006C5F45 /* MusicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F34CB240F5008006C5F45 /* MusicListController.swift */; };
+		AC0F34D1240F5255006C5F45 /* bt_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34CE240F5255006C5F45 /* bt_pause.png */; };
+		AC0F34D2240F5255006C5F45 /* bt_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34CF240F5255006C5F45 /* bt_stop.png */; };
+		AC0F34D3240F5255006C5F45 /* bt_play.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0F34D0240F5255006C5F45 /* bt_play.png */; };
+		AC0F34D5240F5301006C5F45 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F34D4240F5301006C5F45 /* PlayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		AC0F34B9240F4AFB006C5F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0F34BC240F4AFB006C5F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0F34BE240F4AFB006C5F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0F34C5240F4ED4006C5F45 /* perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect.mp3; sourceTree = "<group>"; };
+		AC0F34C6240F4ED4006C5F45 /* creep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = creep.mp3; sourceTree = "<group>"; };
+		AC0F34C9240F4F70006C5F45 /* make_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = make_you.mp3; sourceTree = "<group>"; };
+		AC0F34CB240F5008006C5F45 /* MusicListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListController.swift; sourceTree = "<group>"; };
+		AC0F34CE240F5255006C5F45 /* bt_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_pause.png; sourceTree = "<group>"; };
+		AC0F34CF240F5255006C5F45 /* bt_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_stop.png; sourceTree = "<group>"; };
+		AC0F34D0240F5255006C5F45 /* bt_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_play.png; sourceTree = "<group>"; };
+		AC0F34D4240F5301006C5F45 /* PlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,8 @@
 		AC0F34A4240F4AFB006C5F45 = {
 			isa = PBXGroup;
 			children = (
+				AC0F34CD240F524D006C5F45 /* images */,
+				AC0F34C4240F4EC9006C5F45 /* music */,
 				AC0F34AF240F4AFB006C5F45 /* MP3Player */,
 				AC0F34AE240F4AFB006C5F45 /* Products */,
 			);
@@ -63,8 +81,30 @@
 				AC0F34B9240F4AFB006C5F45 /* Assets.xcassets */,
 				AC0F34BB240F4AFB006C5F45 /* LaunchScreen.storyboard */,
 				AC0F34BE240F4AFB006C5F45 /* Info.plist */,
+				AC0F34CB240F5008006C5F45 /* MusicListController.swift */,
+				AC0F34D4240F5301006C5F45 /* PlayController.swift */,
 			);
 			path = MP3Player;
+			sourceTree = "<group>";
+		};
+		AC0F34C4240F4EC9006C5F45 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				AC0F34C9240F4F70006C5F45 /* make_you.mp3 */,
+				AC0F34C6240F4ED4006C5F45 /* creep.mp3 */,
+				AC0F34C5240F4ED4006C5F45 /* perfect.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		AC0F34CD240F524D006C5F45 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC0F34CE240F5255006C5F45 /* bt_pause.png */,
+				AC0F34D0240F5255006C5F45 /* bt_play.png */,
+				AC0F34CF240F5255006C5F45 /* bt_stop.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0F34BD240F4AFB006C5F45 /* LaunchScreen.storyboard in Resources */,
+				AC0F34D2240F5255006C5F45 /* bt_stop.png in Resources */,
+				AC0F34C8240F4ED4006C5F45 /* creep.mp3 in Resources */,
+				AC0F34D3240F5255006C5F45 /* bt_play.png in Resources */,
+				AC0F34D1240F5255006C5F45 /* bt_pause.png in Resources */,
+				AC0F34CA240F4F70006C5F45 /* make_you.mp3 in Resources */,
 				AC0F34BA240F4AFB006C5F45 /* Assets.xcassets in Resources */,
+				AC0F34C7240F4ED4006C5F45 /* perfect.mp3 in Resources */,
 				AC0F34B8240F4AFB006C5F45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0F34B5240F4AFB006C5F45 /* ViewController.swift in Sources */,
+				AC0F34CC240F5008006C5F45 /* MusicListController.swift in Sources */,
 				AC0F34B1240F4AFB006C5F45 /* AppDelegate.swift in Sources */,
 				AC0F34B3240F4AFB006C5F45 /* SceneDelegate.swift in Sources */,
+				AC0F34D5240F5301006C5F45 /* PlayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
